@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../../dist/output.css" />
+		<title>Edit Profile</title>
+	</head>
+	<body class="bg-neutral-1000 text-neutral-50 font-inter w-full px-4">
+		<header class="py-3 w-full flex items-center justify-between">
+			<a href="./index.html" class="flex gap-5">
+				<img src="../../public/images/arrow-left.svg" alt="Arrow Left" />
+				<p>Edit profile</p>
+			</a>
+			<a href="./index.html">
+				<button
+					class="text-neutral-1000 bg-neutral-50 py-2 px-5 rounded-full font-bold leading-normal text-sm"
+				>
+					Save
+				</button>
+			</a>
+		</header>
+		<section>
+			<div class="relative flex w-full">
+				<img
+					class="h-52 w-full object-cover"
+					src="../../public/images/user_background.png"
+					alt="Background"
+				/>
+				<div
+					class="absolute flex h-full w-full items-center justify-center gap-2"
+				>
+					<a href="#" class="rounded-full bg-neutral-1000 bg-opacity-60 p-1">
+						<img class="h-6 w-6" src="../../public/images/cameraPlus.png" />
+					</a>
+					<a href="#" class="rounded-full bg-neutral-1000 bg-opacity-60 p-1">
+						<img class="h-6 w-6" src="../../public/images/cross.png" />
+					</a>
+				</div>
+			</div>
+			<button
+				class="top-52 left-9 absolute rounded-full bg-neutral-1000 bg-opacity-60 p-1"
+			>
+				<img
+					class="h-20 w-20 rounded-full border-4 border-neutral-1000"
+					src="../../public/images/user_avatar.png"
+				/>
+			</button>
+		</section>
+
+		<main class="mt-8">
+			<!-- Inputs -->
+			<section class="flex flex-col gap-8 items-center self-stretch">
+				<div
+					class="flex items-center justify-between focus-within:border-blue-default rounded border border-neutral-500 py-4 px-3 relative w-full"
+				>
+					<label
+						class="absolute peer-focus:text-blue-default text-neutral-500 font-medium left-4 -top-2 text-xs px-1 leading-regular bg-black pointer-events-none"
+					>
+						<p class="text-center">Name</p>
+					</label>
+					<input
+						class="bg-transparent peer focus:outline-none grow"
+						placeholder="Name"
+					/>
+				</div>
+
+				<div
+					class="flex items-center justify-between focus-within:border-blue-default rounded border border-neutral-500 py-4 px-3 relative w-full"
+				>
+					<label
+						class="absolute peer-focus:text-blue-default text-neutral-500 font-medium left-4 -top-2 text-xs px-1 leading-regular bg-black pointer-events-none"
+					>
+						<p class="text-center">Bio</p>
+					</label>
+					<input
+						class="bg-transparent peer focus:outline-none grow"
+						placeholder="Bio"
+					/>
+				</div>
+
+				<div
+					class="flex items-center justify-between focus-within:border-blue-default rounded border border-neutral-500 py-4 px-3 relative w-full"
+				>
+					<label
+						class="absolute peer-focus:text-blue-default text-neutral-500 font-medium left-4 -top-2 text-xs px-1 leading-regular bg-black pointer-events-none"
+					>
+						<p class="text-center">Location</p>
+					</label>
+					<input
+						class="bg-transparent peer focus:outline-none grow"
+						placeholder="Location"
+					/>
+				</div>
+
+				<div
+					class="flex items-center justify-between focus-within:border-blue-default rounded border border-neutral-500 py-4 px-3 relative w-full"
+				>
+					<label
+						class="absolute peer-focus:text-blue-default text-neutral-500 font-medium left-4 -top-2 text-xs px-1 leading-regular bg-black pointer-events-none"
+					>
+						<p class="text-center">Website</p>
+					</label>
+					<input
+						class="bg-transparent peer focus:outline-none grow"
+						placeholder="Website"
+					/>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
