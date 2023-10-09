@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../../dist/output.css" />
+		<title>Home Feed</title>
+	</head>
+	<body class="bg-neutral-1000 text-neutral-50 font-inter w-full px-4">
+		<header class="py-3 w-full flex items-center justify-between">
+			<a href="../home-feed/">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+					fill="none"
+				>
+					<path
+						d="M18 6L6 18"
+						stroke="#F9F9F9"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					/>
+					<path
+						d="M6 6L18 18"
+						stroke="#F9F9F9"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					/>
+				</svg>
+			</a>
+			<a href="../home-feed/">
+				<button
+					class="text-neutral-50 bg-blue-default hover:bg-blue-hover py-2 px-6 rounded-full font-bold leading-normal text-base disabled:opacity-50 disabled:cursor-not-allowed"
+				>
+					Post
+				</button>
+			</a>
+		</header>
+		<main>
+			<section class="py-2">
+				<div class="w-full bg-transparent flex gap-3">
+					<img
+						src="../../public/images/user_avatar.png"
+						class="rounded-full w-9"
+					/>
+					<input
+						type="text"
+						placeholder="What's happening?"
+						class="w-full bg-transparent focus:outline-none caret-blue-default text-neutral-50 text-20 font-regular placeholder:text-neutral-600"
+					/>
+				</div>
+			</section>
+		</main>
+		<footer class="fixed bottom-0 left-0 w-full">
+			<p
+				class="px-4 py-3 border-t text-sm leading-normal font-normal text-neutral-500"
+			>
+				0/280
+			</p>
+		</footer>
+	</body>
+</html>

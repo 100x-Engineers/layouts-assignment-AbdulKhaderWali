@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../../dist/output.css" />
+		<title>Create-Account-1</title>
+	</head>
+	<body
+		class="bg-neutral-1000 text-neutral-50 px-4 font-inter w-full min-h-screen flex flex-col justify-between"
+	>
+		<div>
+			<header class="flex gap-5 py-3 items-center">
+				<a href="./index.html">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						fill="none"
+					>
+						<path
+							d="M18 6L6 18"
+							stroke="#F9F9F9"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						/>
+						<path
+							d="M6 6L18 18"
+							stroke="#F9F9F9"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						/>
+					</svg>
+				</a>
+				<p class="leading-normal text-base font-bold">Step 1 of 4</p>
+			</header>
+			<main class="flex flex-col gap-5 self-stretch justify-between">
+				<section>
+					<h1 class="text-2xl leading-normal font-bold pt-3">
+						Create your account
+					</h1>
+				</section>
+
+				<!-- Inputs -->
+				<section class="flex flex-col gap-8 items-center self-stretch">
+					<div
+						class="flex items-center justify-between focus-within:border-blue-default rounded border border-neutral-500 py-4 px-3 relative w-full"
+					>
+						<label
+							class="absolute peer-focus:text-blue-default text-neutral-500 font-medium left-4 -top-2 text-xs px-1 leading-regular bg-black pointer-events-none"
+						>
+							<p class="text-center">Name</p>
+						</label>
+						<input
+							class="bg-transparent peer focus:outline-none grow"
+							placeholder="Name"
+						/>
+					</div>
+
+					<!-- Email  -->
+					<div
+						class="flex items-center justify-between focus-within:border-blue-default rounded border border-neutral-500 py-4 px-3 relative w-full"
+					>
+						<label
+							class="absolute peer-focus:text-blue-default text-neutral-500 font-medium left-4 -top-2 text-xs px-1 leading-regular bg-black pointer-events-none"
+						>
+							<p class="text-center">Email</p>
+						</label>
+						<input
+							class="bg-transparent peer focus:outline-none grow"
+							placeholder="Email"
+						/>
+					</div>
+
+					<!-- DOB info -->
+					<div class="flex flex-col self-stretch gap-2">
+						<p class="text-base leading-normal font-bold">Date of birth</p>
+						<p class="text-sm leading-normal font-normal">
+							This will not be shown publicly. Confirm your own age, even if
+							this account is for a business, a pet, or something else.
+						</p>
+					</div>
+
+					<!-- DOB Inputs  -->
+					<div class="flex justify-between w-full flex-wrap">
+						<div
+							class="flex items-center justify-between focus-within:border-blue-default rounded border border-neutral-500 py-4 px-3 relative max-w-1/4 grow"
+						>
+							<label
+								class="absolute peer-focus:text-blue-default text-neutral-500 font-medium left-4 -top-2 text-xs px-1 leading-regular bg-black pointer-events-none"
+							>
+								<p class="text-center">Name</p>
+							</label>
+							<input
+								class="bg-transparent peer focus:outline-none"
+								placeholder="Name"
+							/>
+						</div>
+
+						<!-- Month  -->
+						<div
+							class="flex items-center justify-between focus-within:border-blue-default rounded border border-neutral-500 py-4 px-3 relative max-w-1/4 flex-grow-0"
+						>
+							<label
+								class="absolute peer-focus:text-blue-default text-neutral-500 font-medium left-4 -top-2 text-xs px-1 leading-regular bg-black pointer-events-none"
+							>
+								<p class="text-center">Name</p>
+							</label>
+							<input
+								class="bg-transparent peer focus:outline-none"
+								placeholder="Name"
+							/>
+						</div>
+
+						<!-- Year  -->
+						<div
+							class="flex items-center justify-between focus-within:border-blue-default rounded border border-neutral-500 py-4 px-3 relative max-w-1/4 flex-grow-0"
+						>
+							<label
+								class="absolute peer-focus:text-blue-default text-neutral-500 font-medium left-4 -top-2 text-xs px-1 leading-regular bg-black pointer-events-none"
+							>
+								<p class="text-center">Name</p>
+							</label>
+							<input
+								class="bg-transparent peer focus:outline-none"
+								placeholder="Name"
+							/>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+		<footer class="mb-5">
+			<button
+				class="bg-neutral-50 text-black rounded-5xl shadow-1 backdrop-blur-xl font-bold leading-normal text-base opacity-50 cursor-not-allowed flex items-center justify-center gap-2.5 w-full"
+			>
+				<a href="./create-account-step-2.html" class="px-6 py-2"
+					>Create account</a
+				>
+			</button>
+		</footer>
+	</body>
+</html>
